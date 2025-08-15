@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <!-- Add custom listener here -->
+        <listener class-name="listeners.TestListeners"/>
+</listeners>
+<test verbose="2" preserve-order="true" name="D:/AutomationProjects/SeleniumProject_ByEmma/src/test/java/">
+<classes>
+    <class name="autoframework.testcases.SignIn_Successfully">
+        <methods>
+            <include name="loginToPageSuccessfully"/>
+        </methods>
+    </class>
+</classes>
+</test></suite>
