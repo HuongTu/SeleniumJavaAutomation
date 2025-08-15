@@ -9,7 +9,7 @@ public class ExtentManager {
 
     public static ExtentReports getInstance() {
         if (extent == null) {
-            createInstance("test-output/extent-report.html");
+            createInstance(System.getProperty("user.dir") +"test-output/extent-report.html");
         }
         return extent;
     }
@@ -24,6 +24,9 @@ public class ExtentManager {
         extent.setSystemInfo("Tester", "Emma");
         extent.setSystemInfo("Browser", "Chrome");
         extent.setSystemInfo("OS", System.getProperty("os.name"));
+        sparkReporter.config().setTimelineEnabled(true);
+        // Đảm bảo CSS/JS được nhúng vào file HTML để Jenkins load không bị mất
+        sparkReporter.config().setCss("body { zoom: 90%; }");
         return extent;
     }
 }
