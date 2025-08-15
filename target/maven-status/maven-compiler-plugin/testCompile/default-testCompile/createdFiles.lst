@@ -1,9 +1,0 @@
-autoframework/pages/pageActions/SignInPage.class
-autoframework/pages/pageObjects/SigInPageObjects.class
-autoframework/base/BasePage.class
-autoframework/testcases/SignIn_Successfully.class
-listeners/TestListeners.class
-autoframework/base/BaseTest.class
-autoframework/base/PageManager.class
-autoframework/base/PageAction.class
-hooks/Hook.class

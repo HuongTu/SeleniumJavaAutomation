@@ -1,9 +1,0 @@
-/Users/chezehihi/Documents/AutomationFramework/SeleniumProject_ByEmma/src/test/java/autoframework/base/BasePage.java
-/Users/chezehihi/Documents/AutomationFramework/SeleniumProject_ByEmma/src/test/java/autoframework/base/BaseTest.java
-/Users/chezehihi/Documents/AutomationFramework/SeleniumProject_ByEmma/src/test/java/autoframework/base/PageAction.java
-/Users/chezehihi/Documents/AutomationFramework/SeleniumProject_ByEmma/src/test/java/autoframework/base/PageManager.java
-/Users/chezehihi/Documents/AutomationFramework/SeleniumProject_ByEmma/src/test/java/autoframework/pages/pageActions/SignInPage.java
-/Users/chezehihi/Documents/AutomationFramework/SeleniumProject_ByEmma/src/test/java/autoframework/pages/pageObjects/SigInPageObjects.java
-/Users/chezehihi/Documents/AutomationFramework/SeleniumProject_ByEmma/src/test/java/autoframework/testcases/SignIn_Successfully.java
-/Users/chezehihi/Documents/AutomationFramework/SeleniumProject_ByEmma/src/test/java/hooks/Hook.java
-/Users/chezehihi/Documents/AutomationFramework/SeleniumProject_ByEmma/src/test/java/listeners/TestListeners.java
